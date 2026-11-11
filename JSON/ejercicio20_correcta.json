@@ -1,0 +1,112 @@
+{
+    "status": 200,
+    "ok": true,
+    "meta": {
+        "pagina": 1,
+        "porPagina": 4,
+        "totalResultados": 12,
+        "enlaces": {
+            "anterior": null,
+            "siguiente": "https://api.streamflix.com/v1/series?pagina=2"
+        },
+        "generadoEn": "2026-10-15T10:00:00Z"
+    },
+    "data": [
+        {
+            "id": 1,
+            "titulo": "Código Oscuro",
+            "genero": ["Thriller", "Tecnología"],
+            "estreno": 2022,
+            "valoracion": { "media": 8.7, "votos": 15230 },
+            "reparto": [
+                { "actor": "Elena Marín", "personaje": "Clara Vega", "principal": true },
+                { "actor": "Javier Soto", "personaje": "Marcos Ruiz", "principal": false }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        { "titulo": "El primer bug", "duracionMin": 48 },
+                        { "titulo": "Acceso denegado", "duracionMin": 52 }
+                    ]
+                }
+            ],
+            "disponibleEn": { "ES": true, "MX": true, "US": false },
+            "trailer": { "url": "https://streamflix.com/trailers/codigo-oscuro", "duracionSeg": 95 }
+        },
+        {
+            "id": 2,
+            "titulo": "Sabores del Sur",
+            "genero": ["Documental", "Gastronomía"],
+            "estreno": 2021,
+            "valoracion": { "media": 7.9, "votos": 8120 },
+            "reparto": [
+                { "actor": "Raúl Campos", "personaje": "Presentador", "principal": true }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        { "titulo": "Mercados de Andalucía", "duracionMin": 40 },
+                        { "titulo": "Cocina de costa", "duracionMin": 42 }
+                    ]
+                },
+                {
+                    "numero": 2,
+                    "episodios": [
+                        { "titulo": "Tapas tradicionales", "duracionMin": 38 }
+                    ]
+                }
+            ],
+            "disponibleEn": { "ES": true, "MX": false, "US": true },
+            "trailer": { "url": "https://streamflix.com/trailers/sabores-del-sur", "duracionSeg": 60 }
+        },
+        {
+            "id": 3,
+            "titulo": "Galaxia Perdida",
+            "genero": ["Ciencia ficción", "Aventura"],
+            "estreno": 2023,
+            "valoracion": { "media": 9.1, "votos": 32050 },
+            "reparto": [
+                { "actor": "Nuria Blasco", "personaje": "Capitana Reyes", "principal": true },
+                { "actor": "Tomás Ferrer", "personaje": "Ingeniero Luna", "principal": true },
+                { "actor": "Irene Costa", "personaje": "IA Nova", "principal": false }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        { "titulo": "Despegue", "duracionMin": 55 },
+                        { "titulo": "Señal desconocida", "duracionMin": 57 },
+                        { "titulo": "Agujero de gusano", "duracionMin": 60 }
+                    ]
+                }
+            ],
+            "disponibleEn": { "ES": true, "MX": true, "US": true },
+            "trailer": null
+        },
+        {
+            "id": 4,
+            "titulo": "La Última Risa",
+            "genero": ["Comedia"],
+            "estreno": 2020,
+            "valoracion": { "media": 6.8, "votos": 4300 },
+            "reparto": [
+                { "actor": "Sergio Pardo", "personaje": "Paco", "principal": true },
+                { "actor": "Lola Vidal", "personaje": "Marta", "principal": true }
+            ],
+            "temporadas": [
+                {
+                    "numero": 1,
+                    "episodios": [
+                        { "titulo": "Un día cualquiera", "duracionMin": 25 },
+                        { "titulo": "La mudanza", "duracionMin": 24 }
+                    ]
+                }
+            ],
+            "disponibleEn": { "ES": true, "MX": false, "US": false },
+            "trailer": { "url": "https://streamflix.com/trailers/la-ultima-risa", "duracionSeg": 45 }
+        }
+    ],
+    "errores": []
+}

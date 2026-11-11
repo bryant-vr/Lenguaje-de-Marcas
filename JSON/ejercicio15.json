@@ -1,0 +1,37 @@
+{
+    "pedidos": [
+        {
+            "numero": 1001,
+            "cliente": {
+                "nombre": "Carlos Gómez",
+                "email": "carlos@email.com",
+                "direccion": { "calle": "Calle Colón 10", "ciudad": "Valencia", "codigoPostal": "46004" }
+            },
+            "producto": "Teclado mecánico",
+            "cantidad": 1,
+            "entregado": true
+        },
+        {
+            "numero": 1002,
+            "cliente": {
+                "nombre": "Laura Sánchez",
+                "email": "laura@email.com",
+                "direccion": { "calle": "Avenida del Puerto 25", "ciudad": "Valencia", "codigoPostal": "46023" }
+            },
+            "producto": "Monitor 24 pulgadas",
+            "cantidad": 2,
+            "entregado": false
+        },
+        {
+            "numero": 1003,
+            "cliente": {
+                "nombre": "Marta Jiménez",
+                "email": "marta@email.com",
+                "direccion": { "calle": "Calle Mayor 5", "ciudad": "Madrid", "codigoPostal": "28013" }
+            },
+            "producto": "Disco SSD 1TB",
+            "cantidad": 3,
+            "entregado": true
+        }
+    ]
+}

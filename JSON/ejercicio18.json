@@ -1,0 +1,65 @@
+{
+    "redSocial": {
+        "usuarios": [
+            {
+                "id": 1,
+                "usuario": "ana_dev",
+                "perfil": { "bio": "Desarrolladora y amante del café", "ubicacion": "Valencia", "verificado": true },
+                "siguiendo": [2, 3]
+            },
+            {
+                "id": 2,
+                "usuario": "carlos_gamer",
+                "perfil": { "bio": "Streamer de fin de semana", "ubicacion": "Madrid", "verificado": false },
+                "siguiendo": [1]
+            },
+            {
+                "id": 3,
+                "usuario": "laura_foto",
+                "perfil": { "bio": "Fotografía y viajes", "ubicacion": "Barcelona", "verificado": true },
+                "siguiendo": [1, 2]
+            }
+        ],
+        "publicaciones": [
+            {
+                "id": 1,
+                "autorId": 1,
+                "texto": "Terminé mi primer proyecto en JSON",
+                "fecha": "2026-10-09T14:30:00",
+                "reacciones": { "meGusta": 25, "risa": 2, "sorpresa": 4 },
+                "hashtags": ["json", "programacion"]
+            },
+            {
+                "id": 2,
+                "autorId": 2,
+                "texto": "Directo esta noche a las 22:00",
+                "fecha": "2026-10-09T16:10:00",
+                "reacciones": { "meGusta": 40, "risa": 5, "sorpresa": 1 },
+                "hashtags": ["gaming"]
+            },
+            {
+                "id": 3,
+                "autorId": 3,
+                "texto": "Atardecer desde la playa",
+                "fecha": "2026-10-09T18:45:00",
+                "reacciones": { "meGusta": 120, "risa": 0, "sorpresa": 15 },
+                "hashtags": []
+            },
+            {
+                "id": 4,
+                "autorId": 1,
+                "texto": "¿Qué editor usáis para programar?",
+                "fecha": "2026-10-10T09:00:00",
+                "reacciones": { "meGusta": 18, "risa": 1, "sorpresa": 0 },
+                "hashtags": ["vscode", "dev"]
+            }
+        ],
+        "comentarios": [
+            { "id": 1, "publicacionId": 1, "autorId": 2, "texto": "¡Enhorabuena!", "editado": false },
+            { "id": 2, "publicacionId": 1, "autorId": 3, "texto": "Muy buen trabajo", "editado": true },
+            { "id": 3, "publicacionId": 2, "autorId": 1, "texto": "Allí estaré", "editado": false },
+            { "id": 4, "publicacionId": 3, "autorId": 2, "texto": "Qué foto tan bonita", "editado": false },
+            { "id": 5, "publicacionId": 4, "autorId": 3, "texto": "VS Code sin duda", "editado": false }
+        ]
+    }
+}

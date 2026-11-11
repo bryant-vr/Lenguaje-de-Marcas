@@ -1,0 +1,66 @@
+{
+    "academia": {
+        "nombre": "Academia Digital Valencia",
+        "fundacion": 2015,
+        "sede": {
+            "ciudad": "Valencia",
+            "pais": "España",
+            "coordenadas": { "lat": 39.4699, "lng": -0.3763 }
+        },
+        "cursos": [
+            {
+                "codigo": "PRG01",
+                "titulo": "Programación Java",
+                "profesor": {
+                    "nombre": "María López",
+                    "especialidades": ["Java", "POO"],
+                    "contacto": { "email": "maria@academia.com", "telefono": "600111222" }
+                },
+                "horario": [
+                    { "dia": "Lunes", "inicio": "16:00", "fin": "18:00" },
+                    { "dia": "Miércoles", "inicio": "16:00", "fin": "18:00" }
+                ],
+                "alumnos": [
+                    { "nombre": "Carlos", "activo": true, "notas": [7, 8, 6], "notaFinal": 7 },
+                    { "nombre": "Laura", "activo": true, "notas": [9, 9, 10], "notaFinal": 9 },
+                    { "nombre": "Diego", "activo": false, "notas": [5, 4], "notaFinal": null }
+                ]
+            },
+            {
+                "codigo": "WEB02",
+                "titulo": "Desarrollo Web",
+                "profesor": {
+                    "nombre": "Juan Pérez",
+                    "especialidades": ["HTML", "CSS", "JavaScript"],
+                    "contacto": { "email": "juan@academia.com", "telefono": "600333444" }
+                },
+                "horario": [
+                    { "dia": "Martes", "inicio": "10:00", "fin": "12:00" },
+                    { "dia": "Jueves", "inicio": "10:00", "fin": "12:00" }
+                ],
+                "alumnos": [
+                    { "nombre": "Marta", "activo": true, "notas": [8, 7, 9], "notaFinal": 8 },
+                    { "nombre": "Pablo", "activo": true, "notas": [6, 6, 7], "notaFinal": 6 },
+                    { "nombre": "Sara", "activo": true, "notas": [10, 9], "notaFinal": null }
+                ]
+            },
+            {
+                "codigo": "BDD03",
+                "titulo": "Bases de Datos",
+                "profesor": {
+                    "nombre": "Ana Torres",
+                    "especialidades": ["MySQL", "SQL", "Modelado"],
+                    "contacto": { "email": "ana@academia.com", "telefono": "600555666" }
+                },
+                "horario": [
+                    { "dia": "Viernes", "inicio": "09:00", "fin": "13:00" }
+                ],
+                "alumnos": [
+                    { "nombre": "Lucía", "activo": true, "notas": [7, 8], "notaFinal": 8 },
+                    { "nombre": "Álvaro", "activo": true, "notas": [5, 6, 5], "notaFinal": 5 },
+                    { "nombre": "Elena", "activo": false, "notas": [], "notaFinal": null }
+                ]
+            }
+        ]
+    }
+}

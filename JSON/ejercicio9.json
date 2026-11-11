@@ -1,0 +1,9 @@
+{
+    "nombre": "Bryant",
+    "edad": 25,
+    "direccion": {
+        "calle": "Calle Colón 10",
+        "ciudad": "Valencia",
+        "codigoPostal": "46004"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "clase": {
+        "alumnos": [
+            { "nombre": "Carlos", "edad": 16, "aprobado": true },
+            { "nombre": "Laura", "edad": 15, "aprobado": true },
+            { "nombre": "Diego", "edad": 17, "aprobado": false },
+            { "nombre": "Marta", "edad": 16, "aprobado": true }
+        ]
+    }
+}

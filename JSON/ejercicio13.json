@@ -1,0 +1,10 @@
+{
+    "tienda": {
+        "productos": [
+            { "nombre": "Teclado mecánico", "precio": 59.99, "categoria": "Periféricos", "disponible": true },
+            { "nombre": "Monitor 24 pulgadas", "precio": 149.99, "categoria": "Monitores", "disponible": true },
+            { "nombre": "Disco SSD 1TB", "precio": 79.99, "categoria": "Almacenamiento", "disponible": false },
+            { "nombre": "Memoria RAM 16GB", "precio": 54.99, "categoria": "Componentes", "disponible": true }
+        ]
+    }
+}

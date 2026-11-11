@@ -1,0 +1,9 @@
+{
+    "status": 404,
+    "ok": false,
+    "data": null,
+    "errores": [
+        { "codigo": "SERIE_NO_ENCONTRADA", "mensaje": "No existe ninguna serie con el id indicado", "campo": "id" },
+        { "codigo": "PARAMETRO_INVALIDO", "mensaje": "El número de página debe ser mayor que 0", "campo": "pagina" }
+    ]
+}

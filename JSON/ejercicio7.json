@@ -1,0 +1,5 @@
+{
+    "producto": {
+        "datos": ["Ordenador portátil", 799.99, true, null]
+    }
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<instituto>
+
+    <profesores>
+        <profesor id="1">
+            <nombre>María</nombre>
+            <apellidos>López García</apellidos>
+            <asignatura>Matemáticas</asignatura>
+        </profesor>
+        <profesor id="2">
+            <nombre>Juan</nombre>
+            <apellidos>Pérez Molina</apellidos>
+            <asignatura>Lengua</asignatura>
+        </profesor>
+        <profesor id="3">
+            <nombre>Ana</nombre>
+            <apellidos>Torres Blanco</apellidos>
+            <asignatura>Informática</asignatura>
+        </profesor>
+    </profesores>
+
+    <asignaturas>
+        <asignatura id="1">Matemáticas</asignatura>
+        <asignatura id="2">Lengua</asignatura>
+        <asignatura id="3">Informática</asignatura>
+        <asignatura id="4">Historia</asignatura>
+    </asignaturas>
+
+    <alumnos>
+        <alumno id="1">
+            <nombre>Carlos</nombre>
+            <apellidos>Gómez Ruiz</apellidos>
+            <edad>16</edad>
+            <curso>4ºESO</curso>
+            <asignaturas>
+                <asignatura nombre="Matemáticas">
+                    <nota>7</nota>
+                </asignatura>
+                <asignatura nombre="Informática">
+                    <nota>9</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="2">
+            <nombre>Laura</nombre>
+            <apellidos>Sánchez Vidal</apellidos>
+            <edad>15</edad>
+            <curso>3ºESO</curso>
+            <asignaturas>
+                <asignatura nombre="Lengua">
+                    <nota>8</nota>
+                </asignatura>
+                <asignatura nombre="Historia">
+                    <nota>6</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="3">
+            <nombre>Diego</nombre>
+            <apellidos>Fernández Ortiz</apellidos>
+            <edad>17</edad>
+            <curso>1ºBACH</curso>
+            <asignaturas>
+                <asignatura nombre="Matemáticas">
+                    <nota>5</nota>
+                </asignatura>
+                <asignatura nombre="Historia">
+                    <nota>7</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+        <alumno id="4">
+            <nombre>Marta</nombre>
+            <apellidos>Jiménez Soler</apellidos>
+            <edad>16</edad>
+            <curso>4ºESO</curso>
+            <asignaturas>
+                <asignatura nombre="Informática">
+                    <nota>10</nota>
+                </asignatura>
+                <asignatura nombre="Lengua">
+                    <nota>9</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+    </alumnos>
+
+</instituto>

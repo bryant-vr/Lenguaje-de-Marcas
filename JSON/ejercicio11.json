@@ -1,0 +1,7 @@
+{
+    "peliculas": [
+        { "titulo": "El Padrino", "director": "Francis Ford Coppola", "año": 1972 },
+        { "titulo": "Origen", "director": "Christopher Nolan", "año": 2010 },
+        { "titulo": "Pulp Fiction", "director": "Quentin Tarantino", "año": 1994 }
+    ]
+}

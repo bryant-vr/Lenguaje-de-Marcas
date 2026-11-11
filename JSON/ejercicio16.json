@@ -1,0 +1,81 @@
+{
+    "tienda": {
+        "nombre": "InfoTech Online",
+        "abierta": true,
+        "contacto": { "telefono": "960123456", "email": "info@infotech.com" },
+        "categorias": [
+            {
+                "id": 1,
+                "nombre": "Periféricos",
+                "productos": [
+                    {
+                        "sku": "PER-001",
+                        "nombre": "Teclado mecánico",
+                        "precio": 59.99,
+                        "stock": 25,
+                        "etiquetas": ["gaming", "rgb"],
+                        "dimensiones": { "alto": 4, "ancho": 44, "fondo": 14 },
+                        "disponible": true
+                    },
+                    {
+                        "sku": "PER-002",
+                        "nombre": "Ratón inalámbrico",
+                        "precio": 29.99,
+                        "stock": 40,
+                        "etiquetas": ["inalámbrico", "ergonómico"],
+                        "dimensiones": { "alto": 4, "ancho": 7, "fondo": 12 },
+                        "disponible": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nombre": "Monitores",
+                "productos": [
+                    {
+                        "sku": "MON-001",
+                        "nombre": "Monitor 24 pulgadas",
+                        "precio": 149.99,
+                        "stock": 15,
+                        "etiquetas": ["full hd", "ips"],
+                        "dimensiones": { "alto": 42, "ancho": 54, "fondo": 18 },
+                        "disponible": true
+                    },
+                    {
+                        "sku": "MON-002",
+                        "nombre": "Monitor 27 pulgadas",
+                        "precio": 229.99,
+                        "stock": 0,
+                        "etiquetas": ["2k", "144hz"],
+                        "dimensiones": { "alto": 47, "ancho": 61, "fondo": 20 },
+                        "disponible": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Almacenamiento",
+                "productos": [
+                    {
+                        "sku": "ALM-001",
+                        "nombre": "Disco SSD 1TB",
+                        "precio": 79.99,
+                        "stock": 30,
+                        "etiquetas": ["ssd", "sata"],
+                        "dimensiones": { "alto": 0.7, "ancho": 7, "fondo": 10 },
+                        "disponible": true
+                    },
+                    {
+                        "sku": "ALM-002",
+                        "nombre": "Disco duro externo 2TB",
+                        "precio": 69.99,
+                        "stock": 12,
+                        "etiquetas": ["externo", "usb"],
+                        "dimensiones": { "alto": 2, "ancho": 8, "fondo": 11 },
+                        "disponible": true
+                    }
+                ]
+            }
+        ]
+    }
+}

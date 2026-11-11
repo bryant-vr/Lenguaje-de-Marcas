@@ -1,0 +1,98 @@
+<?xml version="1.0"?> <!-- Declaracion del fichero XML -->
+<pedidos> <!-- Elemento Raiz -->
+
+    <pedido id="P001">
+        <fecha>2026-09-10</fecha>
+        <cliente>
+            <nombre>Laura Gómez</nombre>
+            <email>laura.gomez@gmail.com</email>
+            <telefono>+34 611 222 333</telefono>
+        </cliente>
+        <direccionEnvio>
+            <calle>Calle Mayor 15</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28013</codigoPostal>
+            <pais>España</pais>
+        </direccionEnvio>
+        <productos>
+            <producto id="PR001">
+                <nombre>Teclado mecánico</nombre>
+                <cantidad>1</cantidad>
+                <precioUnitario>59.99</precioUnitario>
+            </producto>
+            <producto id="PR002">
+                <nombre>Ratón inalámbrico</nombre>
+                <cantidad>2</cantidad>
+                <precioUnitario>19.99</precioUnitario>
+            </producto>
+            <producto id="PR003">
+                <nombre>Alfombrilla XL</nombre>
+                <cantidad>1</cantidad>
+                <precioUnitario>12.50</precioUnitario>
+            </producto>
+        </productos>
+        <total>112.47</total>
+    </pedido>
+
+    <pedido id="P002">
+        <fecha>2026-09-12</fecha>
+        <cliente>
+            <nombre>Carlos Ruiz</nombre>
+            <email>carlos.ruiz@gmail.com</email>
+            <telefono>+34 622 333 444</telefono>
+        </cliente>
+        <direccionEnvio>
+            <calle>Avenida de la Constitución 8</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigoPostal>41001</codigoPostal>
+            <pais>España</pais>
+        </direccionEnvio>
+        <productos>
+            <producto id="PR004">
+                <nombre>Monitor 24 pulgadas</nombre>
+                <cantidad>1</cantidad>
+                <precioUnitario>149.99</precioUnitario>
+            </producto>
+            <producto id="PR005">
+                <nombre>Cable HDMI 2m</nombre>
+                <cantidad>3</cantidad>
+                <precioUnitario>7.99</precioUnitario>
+            </producto>
+        </productos>
+        <total>173.96</total>
+    </pedido>
+
+    <pedido id="P003">
+        <fecha>2026-09-15</fecha>
+        <cliente>
+            <nombre>Ana Martín</nombre>
+            <email>ana.martin@gmail.com</email>
+            <telefono>+34 633 444 555</telefono>
+        </cliente>
+        <direccionEnvio>
+            <calle>Calle Aragón 200</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigoPostal>08011</codigoPostal>
+            <pais>España</pais>
+        </direccionEnvio>
+        <productos>
+            <producto id="PR006">
+                <nombre>Auriculares Bluetooth</nombre>
+                <cantidad>1</cantidad>
+                <precioUnitario>39.99</precioUnitario>
+            </producto>
+            <producto id="PR007">
+                <nombre>Cargador USB-C 65W</nombre>
+                <cantidad>2</cantidad>
+                <precioUnitario>24.99</precioUnitario>
+            </producto>
+            <producto id="PR008">
+                <nombre>Funda protectora portátil</nombre>
+                <cantidad>1</cantidad>
+                <precioUnitario>15.00</precioUnitario>
+            </producto>
+        </productos>
+        <total>104.97</total>
+    </pedido>
+
+</pedidos>

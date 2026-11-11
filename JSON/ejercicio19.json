@@ -1,0 +1,90 @@
+{
+    "clinica": {
+        "nombre": "Clínica Salud Valencia",
+        "direccion": { "calle": "Calle de la Paz 12", "ciudad": "Valencia", "codigoPostal": "46003" },
+        "configuracion": {
+            "horarioApertura": "08:00",
+            "horarioCierre": "20:00",
+            "duracionCitaMinutos": 30
+        },
+        "medicos": [
+            {
+                "id": 1,
+                "nombre": "Dr. Luis Martín",
+                "especialidad": "Medicina general",
+                "colegiado": "46/10234",
+                "consultas": ["Lunes", "Miércoles", "Viernes"]
+            },
+            {
+                "id": 2,
+                "nombre": "Dra. Carmen Ruiz",
+                "especialidad": "Pediatría",
+                "colegiado": "46/20456",
+                "consultas": ["Martes", "Jueves"]
+            },
+            {
+                "id": 3,
+                "nombre": "Dr. Pablo Navarro",
+                "especialidad": "Dermatología",
+                "colegiado": "46/30789",
+                "consultas": ["Lunes", "Jueves"]
+            }
+        ],
+        "pacientes": [
+            {
+                "id": 1,
+                "nombre": "Carlos Gómez",
+                "fechaNacimiento": "1990-05-14",
+                "seguro": { "compania": "Sanitas", "numeroPoliza": "SAN-884521" },
+                "alergias": ["Penicilina"],
+                "historial": [
+                    {
+                        "fecha": "2026-03-10",
+                        "diagnostico": "Faringitis",
+                        "tratamiento": { "medicamento": "Amoxicilina", "dosis": "500 mg cada 8 horas", "duracionDias": 7 }
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nombre": "Laura Sánchez",
+                "fechaNacimiento": "1985-11-02",
+                "seguro": null,
+                "alergias": [],
+                "historial": [
+                    {
+                        "fecha": "2026-01-22",
+                        "diagnostico": "Migraña",
+                        "tratamiento": { "medicamento": "Ibuprofeno", "dosis": "400 mg cada 8 horas", "duracionDias": 5 }
+                    },
+                    {
+                        "fecha": "2026-06-18",
+                        "diagnostico": "Dermatitis",
+                        "tratamiento": { "medicamento": "Hidrocortisona crema", "dosis": "Aplicar 2 veces al día", "duracionDias": 10 }
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Marta Jiménez",
+                "fechaNacimiento": "2018-07-30",
+                "seguro": { "compania": "Adeslas", "numeroPoliza": "ADE-realizada-33" },
+                "alergias": ["Polen", "Frutos secos"],
+                "historial": [
+                    {
+                        "fecha": "2026-09-05",
+                        "diagnostico": "Rinitis alérgica",
+                        "tratamiento": { "medicamento": "Cetirizina", "dosis": "5 mg al día", "duracionDias": 14 }
+                    }
+                ]
+            }
+        ],
+        "citas": [
+            { "id": 1, "pacienteId": 1, "medicoId": 1, "fecha": "2026-10-19T09:00:00", "confirmada": true, "notas": null },
+            { "id": 2, "pacienteId": 2, "medicoId": 3, "fecha": "2026-10-19T10:30:00", "confirmada": true, "notas": "Revisión de dermatitis" },
+            { "id": 3, "pacienteId": 3, "medicoId": 2, "fecha": "2026-10-20T11:00:00", "confirmada": false, "notas": null },
+            { "id": 4, "pacienteId": 1, "medicoId": 1, "fecha": "2026-10-21T12:00:00", "confirmada": true, "notas": "Traer analíticas" },
+            { "id": 5, "pacienteId": 2, "medicoId": 1, "fecha": "2026-10-23T09:30:00", "confirmada": false, "notas": null }
+        ]
+    }
+}

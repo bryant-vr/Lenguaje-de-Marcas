@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<tienda_online>
+    <informacion_general> <!--Elemnto de primer nivel-->
+        <nombre>TechStyle Store</nombre>
+        <CIF>B12345678</CIF>
+        <email>contacto@techstylestore.com</email>
+        <telefono>+34 910 234 567</telefono>
+        <direccion>Calle Gran Via 45, 28013 Madrid, España</direccion>
+    </informacion_general> 
+
+    <catalogo_productos><!--Elemnto de primer nivel-->
+        <producto id="PROD01">
+            <nombre>Auriculares Inalambricos BT-500</nombre>
+            <categoria>Electronica</categoria>
+            <precio>39.99</precio>
+            <stock>120</stock>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD02">
+            <nombre>Camiseta Basica Algodon</nombre>
+            <categoria>Ropa</categoria>
+            <precio>14.50</precio>
+            <stock>200</stock>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD03">
+            <nombre>Mochila Urbana Impermeable</nombre>
+            <categoria>Accesorios</categoria>
+            <precio>29.90</precio>
+            <stock>75</stock>
+            <estado>Disponible</estado>
+        </producto>
+
+        <producto id="PROD04">
+            <nombre>Lampara LED de Escritorio</nombre>
+            <categoria>Hogar</categoria>
+            <precio>22.00</precio>
+            <stock>0</stock>
+            <estado>Agotado</estado>
+        </producto>
+
+        <producto id="PROD05">
+            <nombre>Botella Termica 750ml</nombre>
+            <categoria>Hogar</categoria>
+            <precio>12.75</precio>
+            <stock>150</stock>
+            <estado>Disponible</estado>
+        </producto>
+    </catalogo_productos>
+
+    <clientes> <!--Elemnto de primer nivel-->
+        <cliente id="CL001">
+            <nombre>Laura</nombre>
+            <apellido>Martinez Ruiz</apellido>
+            <email>laura.martinez@example.com</email>
+            <telefono>+34 611 222 333</telefono>
+            <direccion>Calle Alcala 12, 28014 Madrid, España</direccion>
+        </cliente>
+
+        <cliente id="CL002">
+            <nombre>Carlos</nombre>
+            <apellido>Gomez Perez</apellido>
+            <email>carlos.gomez@example.com</email>
+            <telefono>+34 622 333 444</telefono>
+            <direccion>Avenida Diagonal 200, 08018 Barcelona, España</direccion>
+        </cliente>
+
+        <cliente id="CL003">
+            <nombre>Ana</nombre>
+            <apellido>Fernandez Lopez</apellido>
+            <email>ana.fernandez@example.com</email>
+            <telefono>+34 633 444 555</telefono>
+            <direccion>Calle Larios 8, 29005 Malaga, España</direccion>
+        </cliente>
+
+        <cliente id="CL004">
+            <nombre>David</nombre>
+            <apellido>Sanchez Torres</apellido>
+            <email>david.sanchez@example.com</email>
+            <telefono>+34 644 555 666</telefono>
+            <direccion>Calle Colon 3, 46004 Valencia, España</direccion>
+        </cliente>
+    </clientes>
+
+    <pedidos> <!--Elemnto de primer nivel-->
+        <pedido id="PED01"> 
+        <fecha>2026-08-02</fecha>
+        <clientes>CL001</clientes>
+        <direccion_envio>Calle Alcala 12, 28014 Madrid, España</direccion_envio>
+        <estado>Entregado</estado>
+        <lista_productos>
+            <producto id="PROD01">
+                <cantidad>2</cantidad>
+                <precio_unitario>39.99</precio_unitario>
+            </producto>
+            <producto id="PROD02">
+                <cantidad>3</cantidad>
+                <precio_unitario>14.50</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>123.48</total>
+        <estado>Entregado</estado>
+        </pedido>
+
+            <pedido id="PED02"> 
+        <fecha>2026-08-10</fecha>
+        <clientes>CL002</clientes>
+        <direccion_envio>Avenida Diagonal 200, 08018 Barcelona, España</direccion_envio>
+        <estado>En proceso</estado>
+        <lista_productos>
+            <producto id="PROD01">
+                <cantidad>1</cantidad>
+                <precio_unitario>39.99</precio_unitario>
+            </producto>
+            <producto id="PROD02">
+                <cantidad>1</cantidad>
+                <precio_unitario>14.50</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>54.49</total>
+        <estado>En proceso</estado>
+        </pedido>
+
+            <pedido id="PED03"> 
+        <fecha>2026-08-15</fecha>
+        <clientes>CL003</clientes>
+        <direccion_envio>Calle Larios 8, 29005 Malaga, España</direccion_envio>
+        <estado>Enviado</estado>
+        <lista_productos>
+            <producto id="PROD01">
+                <cantidad>1</cantidad>
+                <precio_unitario>39.99</precio_unitario>
+            </producto>
+            <producto id="PROD02">
+                <cantidad>2</cantidad>
+                <precio_unitario>14.50</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>68.99</total>
+        <estado>Enviado</estado>
+        </pedido>
+
+            <pedido id="PED04"> 
+        <fecha>2026-08-20</fecha>
+        <clientes>CL004</clientes>
+        <direccion_envio>Calle Colon 3, 46004 Valencia, España</direccion_envio>
+        <estado>Entregado</estado>
+        <lista_productos>
+            <producto id="PROD01">
+                <cantidad>1</cantidad>
+                <precio_unitario>39.99</precio_unitario>
+            </producto>
+            <producto id="PROD02">
+                <cantidad>4</cantidad>
+                <precio_unitario>14.50</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>97.99</total>
+        <estado>Entregado</estado>
+        </pedido>
+
+            <pedido id="PED05"> 
+        <fecha>2026-09-01</fecha>
+        <clientes>CL001</clientes>
+        <direccion_envio>Calle Alcala 12, 28014 Madrid, España</direccion_envio>
+        <estado>Pendiente</estado>
+        <lista_productos>
+            <producto id="PROD01">
+                <cantidad>1</cantidad>
+                <precio_unitario>39.99</precio_unitario>
+            </producto>
+            <producto id="PROD01">
+                <cantidad>1</cantidad>
+                <precio_unitario>39.99</precio_unitario>
+            </producto>
+
+        </lista_productos>
+        <total>79.98</total>
+        <estado>Pendiente</estado>
+        </pedido>
+
+
+    </pedidos>
+</tienda_online>

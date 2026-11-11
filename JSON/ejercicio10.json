@@ -1,0 +1,14 @@
+{
+    "tienda": {
+        "nombre": "InfoTech Valencia",
+        "direccion": {
+            "calle": "Avenida del Puerto 25",
+            "ciudad": "Valencia"
+        },
+        "productos": [
+            { "nombre": "Teclado mecánico", "precio": 59.99, "disponible": true },
+            { "nombre": "Ratón inalámbrico", "precio": 29.99, "disponible": true },
+            { "nombre": "Monitor 24 pulgadas", "precio": 149.99, "disponible": false }
+        ]
+    }
+}

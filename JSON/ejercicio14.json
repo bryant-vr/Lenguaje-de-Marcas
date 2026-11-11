@@ -1,0 +1,7 @@
+{
+    "videojuegos": [
+        { "titulo": "Fortnite", "genero": "Battle Royale", "precio": 0, "multijugador": true },
+        { "titulo": "The Witcher 3", "genero": "RPG", "precio": 29.99, "multijugador": false },
+        { "titulo": "FIFA 26", "genero": "Deportes", "precio": 69.99, "multijugador": true }
+    ]
+}
